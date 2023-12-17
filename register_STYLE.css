@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(90deg, #7b41c1, #1bd899);
+    height: 100vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.goToMainPage{
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    top: 1%;
+    right: 1%;
+    width: 80px;
+    height: 35px;
+    background-color: #b56e77;
+    font-size: 13pt;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.goToMainPage p{
+    z-index: 3;
+    position: relative;
+    left: 18%;
+    bottom: 7px;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: [col1] 25% [col2] 25% [col3] 25% [col4] 25% [col_end];
+    grid-template-rows: [row1] 28% [row2] auto [row3] 28% [row4] auto [row_end];
+    background: rgb(244, 205, 230);
+    padding: 3em;
+    border-color: rgb(58, 15, 42);
+    border-width: 10px;
+    border-style: outset;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e37a7a;
+    font-size: 17px;
+    &:active {
+        text-shadow: none;
+    }
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    width: 200px;
+    margin-bottom: 5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    &[type="email"],
+    &[type="password"] {
+        &:focus {
+            background: rgb(221, 156, 245);
+        }
+    }
+}
+
+button {
+    background-color: #e37a7a;
+    border-color: purple;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main_item {
+    top: 60px;
+    left: 270px;
+    position: relative;
+    z-index: 2;
+    color: #4b1942;
+}
+
+.item_1 {
+    grid-column-start: col1;
+    grid-column-end: col3;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    margin: 10px;
+    color: rgb(58, 15, 42);
+}
+
+.item_2 {
+    grid-column-start: col3;
+    grid-column-end: col_end;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    margin: 10px;
+}
+
+.item_3 {
+    grid-column-start: col2;
+    grid-column-end: col4;
+    grid-row-start: row3;
+    grid-row-end: row4;
+    margin: 4px;
+}
+
+.item_4 {
+    grid-column-start: col2;
+    grid-column-end: col4;
+    grid-row-start: row4;
+    grid-row-end: row_end;
+    margin: 8px;
+}
+
+::placeholder {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 600;
+    color: rgb(58, 15, 42);
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        display: grid;
+        grid-template-columns: [col1] 25% [col2] 25% [col3] 25% [col4] 25% [col_end];
+        grid-template-rows: [row1] 20% [row2] 15% [row3] 15% [row4] 15% [row5] 20% [row6] 15% [row_end];
+        background: rgb(244, 205, 230);
+        padding: 1em;
+        border-color: rgb(58, 15, 42);
+        border-width: 10px;
+        border-style: outset;
+        position: relative;
+        width: 80vw;
+        height: 150px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .main_item {
+        top: 60px;
+        left: 40vw;
+        position: relative;
+        z-index: 2;
+        color: #4b1942;
+    }
+    .item_1 {
+        grid-column-start: col1;
+        grid-column-end: col3;
+        grid-row-start: row2;
+        grid-row-end: row3;
+        margin: 3px;
+        color: rgb(58, 15, 42);
+    }
+    .item_2 {
+        grid-column-start: col1;
+        grid-column-end: col3;
+        grid-row-start: row3;
+        grid-row-end: row4;
+        margin: 3px;
+    }
+    .item_3 {
+        grid-column-start: col2;
+        grid-column-end: col4;
+        grid-row-start: row5;
+        grid-row-end: row6;
+        margin: 4px;
+    }
+    .item_4 {
+        grid-column-start: col2;
+        grid-column-end: col4;
+        grid-row-start: row6;
+        grid-row-end: row_end;
+        margin: 8px;
+    }
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
