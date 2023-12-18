@@ -77,6 +77,14 @@ input {
 button {
     background-color: #e37a7a;
     border-color: purple;
+    cursor: pointer;
+}
+
+button a{
+    position: relative;
+    top: 0px;
+    color: #000;
+    z-index: 3;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 15px;
     cursor: pointer;
