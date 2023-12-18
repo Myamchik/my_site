@@ -15,6 +15,7 @@
     position: relative;
     border-radius: 15px;
     margin-top: 50px;
+    right: 0%;
     left: 0;
     background-color: rgb(149, 76, 76);
     height: 230px;
@@ -104,6 +105,14 @@ fill: currentColor
 }
 
 @media screen and (max-width: 768px){
+
+    .body-container{
+        overflow-x:hidden;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+
     .header-container {
         background-color: #f9e4f6;
         margin-right: 2%;
@@ -116,14 +125,13 @@ fill: currentColor
         color: #ba6820;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         display: flex;
-        grid-template-columns: [col1] 30% [col2]auto[col3];
     }
 
     .footer-container p{
         position: relative;
-        width: 100%;
+        left: 38%;
+        width: 200px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
-        left: 27%;
         top: 1%;
         font-size: 24pt;
         color: white;
