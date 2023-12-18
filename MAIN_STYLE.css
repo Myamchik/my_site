@@ -125,7 +125,9 @@ fill: currentColor
         font-family: 'Yanone Kaffeesatz', sans-serif;
         display: flex;
     }
+}
 
+@media screen and (max-width: 900px) {
     .footer-container p{
         position: relative;
         margin-left: 1%;
