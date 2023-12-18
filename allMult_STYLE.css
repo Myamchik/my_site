@@ -115,7 +115,7 @@
 
     .Name_of_mult{
         position: relative;
-        left: 15%;
+        left: 13%;
         margin-top: 13px;
         width: 300px;
         height: 70px;
@@ -184,3 +184,5 @@
         color: rgb(244, 216, 216);
     }
 }
+
+
