@@ -145,12 +145,12 @@ a {
     }
 
     .container-card {
-        width: 73%;
         font-size: smaller;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         color: rgb(149, 76, 76);
         left: 21%;
         top: 33px;
+        padding: 7px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -164,6 +164,7 @@ a {
         border-color: rgb(149, 76, 76);
         border-width: 7px;
         position: relative;
+        padding-left: 10px;
         width: 230px;
         height: 230px;
         background-color: white;
