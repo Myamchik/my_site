@@ -144,10 +144,6 @@ a {
         margin-right: 6px;
     }
 
-    .ball {
-        display: none;
-    }
-
     .container-card {
         width: 84%;
         font-size: smaller;
@@ -177,5 +173,11 @@ a {
         overflow: hidden;
         box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
         transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ball {
+        display: none;
     }
 }
