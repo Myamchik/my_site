@@ -12,8 +12,8 @@
     margin-left: 25px;
     display: grid;
     grid-template-columns: [column1] 20% [column2] auto [column3];
-    grid-template-rows: [row1] 230px [row2] !important;
-    grid-auto-rows: 230px !important;
+    grid-template-rows: [row1] 250px [row2] !important;
+    grid-auto-rows: 250px !important;
     gap: 10px;
 }
 
