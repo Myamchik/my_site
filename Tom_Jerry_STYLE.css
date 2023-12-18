@@ -1,0 +1,24 @@
+.body-container{
+    background-image: url(ТомИДжерри_фон.jpg);
+}
+
+.info{
+    background-color: rgb(216, 131, 131) !important;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: [column1] 40% [column2] auto [column3];
+        grid-template-rows: [row1] 33% [row2] !important;
+        grid-auto-rows: 33% !important;
+        gap: 10px;
+    }
+}
+
+
+
+
