@@ -1,0 +1,39 @@
+.body-container{
+    background-image: url(КотВсапогах_фон.png);
+}
+
+.info{
+    background-color: rgb(236, 199, 199) !important;
+    border-radius: 20px;
+}
+
+.info .about {
+    position: relative;
+    padding-right: 60px;
+    left: 4%;
+    top: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+    color: rgb(108, 68, 68) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .info .about {
+        position: relative;
+        left: 3%;
+        top: -30px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 10pt;
+        color: rgb(108, 68, 68) !important;
+    }
+
+    .grid-container {
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: [column1] 40% [column2] auto [column3];
+        grid-template-rows: [row1] 33% [row2] !important;
+        grid-auto-rows: 33% !important;
+        gap: 10px;
+    }
+}
+

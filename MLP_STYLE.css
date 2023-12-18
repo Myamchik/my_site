@@ -1,0 +1,8 @@
+.body-container{
+    background-image: url(фон_млп.png);
+}
+
+.info{
+    background-color: rgb(216, 131, 131) !important;
+    border-radius: 20px;
+}

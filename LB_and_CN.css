@@ -1,0 +1,39 @@
+.body-container{
+    background-image: url(фон_ледибаг.jpg);
+}
+
+.info{
+    background-color: rgb(225, 169, 169) !important;
+    border-radius: 20px;
+}
+
+.info .about {
+    position: relative;
+    padding-right: 60px;
+    left: 4%;
+    top: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+    color: rgb(144, 89, 89) !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: [column1] 40% [column2] auto [column3];
+        grid-template-rows: [row1] 16% [row2] !important;
+        grid-auto-rows: 16% !important;
+        gap: 10px;
+    }
+
+    .info .about {
+        position: relative;
+        left: 3%;
+        top: -30px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 10pt;
+        color: rgb(144, 89, 89) !important;
+    }
+}

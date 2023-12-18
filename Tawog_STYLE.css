@@ -1,0 +1,49 @@
+.body-container{
+    background-image: url(Тавог_фон.jpg);
+}
+
+.info{
+    background-color: rgb(228, 157, 157) !important;
+    border-radius: 20px;
+}
+
+.grid-container {
+    margin-top: 40px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: [column1] 20% [column2] auto [column3];
+    grid-template-rows: [row1] 230px [row2] !important;
+    grid-auto-rows: 230px !important;
+    gap: 10px;
+}
+
+.info .about {
+    position: relative;
+    padding-right: 60px;
+    left: 4%;
+    top: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+    color: rgb(171, 117, 117) !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: [column1] 40% [column2] auto [column3];
+        gap: 10px;
+    }
+
+    .info .about {
+        position: relative;
+        left: 3%;
+        top: -20px !important;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 10pt;
+        color: rgb(160, 108, 108) !important;
+    }
+}
+
+
