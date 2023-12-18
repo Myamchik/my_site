@@ -27,13 +27,14 @@
     top: 195px;
     width: 13%;
     float: left;
-    height: 90vh;
+    height: 97vh;
     background-color: rgb(156, 254, 210);
     margin-right: 10px;
 }
 
 .aside-container .links p{
     position: relative;
+    top: -12px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     left: 2%;
     font-size: 100%;
@@ -42,13 +43,14 @@
 
 .LINK_on_MULT{
     cursor: pointer;
+    margin-top: -7px;
     text-align: center;
     width: 80%;
     height: 12%;
     background-color: white;
     border-radius: 30px;
     margin-left: 5%;
-    font-size: 90%;
+    font-size: 80%;
     color: rgb(2, 95, 32);
 }
 
@@ -56,7 +58,7 @@
     position: relative;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     left: 2%;
-    top: 30%;
+    top: 10%;
 
 }
 
@@ -191,6 +193,7 @@ a {
         top: 185px;
         width: 30%;
         float: left;
+        height: 400px;
         background-color: rgb(156, 254, 210);
         margin-left: 1%;
     }
