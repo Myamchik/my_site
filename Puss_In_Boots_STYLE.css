@@ -14,7 +14,7 @@
     top: 1%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20pt;
-    color: rgb(108, 68, 68) !important;
+    color: rgb(169, 123, 123) !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,7 +24,7 @@
         top: -30px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 10pt;
-        color: rgb(108, 68, 68) !important;
+        color: rgb(169, 123, 123) !important;
     }
 
     .grid-container {
