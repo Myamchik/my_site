@@ -113,22 +113,6 @@
 
 @media screen and (max-width: 768px) {
 
-    .Name_of_mult{
-        position: relative;
-        left: 2%;
-        margin-top: 13px;
-        width: 300px;
-        height: 70px;
-        background-color: #b56e77;
-        font-size: 20pt;
-        border-style: solid;
-        border-color: rgb(216, 131, 131);
-        border-width: 8px;
-        border-radius: 20px;
-        color: rgb(255, 255, 255);
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-    }
-
     .note_mc{
         width: 220px;
         height: 50px;
@@ -174,24 +158,13 @@
         font-size: 16pt;
         color: white;
     }
-
-    .info .about {
-        position: relative;
-        left: 3%;
-        top: -30px;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        font-size: 10pt;
-        color: rgb(244, 216, 216);
-    }
 }
 
 @media screen and (max-width: 900px) {
     .Name_of_mult{
         position: relative;
-        left: 29%;
+        left: 2%;
         margin-top: 13px;
-        text-align: center;
-        padding-top: 3%;
         width: 300px;
         height: 70px;
         background-color: #b56e77;
@@ -202,6 +175,15 @@
         border-radius: 20px;
         color: rgb(255, 255, 255);
         font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+    .info .about {
+        position: relative;
+        left: 3%;
+        top: -30px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 10pt;
+        color: rgb(244, 216, 216);
     }
 }
 
