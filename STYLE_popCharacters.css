@@ -27,14 +27,14 @@
     top: 195px;
     width: 13%;
     float: left;
-    height: 97vh;
+    height: 90vh;
     background-color: rgb(156, 254, 210);
     margin-right: 10px;
 }
 
 .aside-container .links p{
     position: relative;
-    top: -12px;
+    top: 2%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     left: 2%;
     font-size: 100%;
@@ -43,14 +43,14 @@
 
 .LINK_on_MULT{
     cursor: pointer;
-    margin-top: -7px;
     text-align: center;
     width: 80%;
     height: 12%;
     background-color: white;
     border-radius: 30px;
+    margin-top: 10px;
     margin-left: 5%;
-    font-size: 80%;
+    font-size: 90%;
     color: rgb(2, 95, 32);
 }
 
@@ -58,7 +58,7 @@
     position: relative;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     left: 2%;
-    top: 10%;
+    top: 30%;
 
 }
 
@@ -146,6 +146,19 @@ a {
         margin-left: 1%;
     }
 
+    .LINK_on_MULT{
+        cursor: pointer;
+        text-align: center;
+        width: 80%;
+        height: 12%;
+        background-color: white;
+        border-radius: 30px;
+        margin-top: 5px;
+        margin-left: 5%;
+        font-size: 80%;
+        color: rgb(2, 95, 32);
+    }
+
     .container-card {
         font-size: smaller;
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -177,7 +190,6 @@ a {
         transition: 0.5s;
     }
 }
-
 
 
 @media screen and (max-width: 900px) {
